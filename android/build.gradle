@@ -37,6 +37,10 @@ android {
         targetSdkVersion 33
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
+
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
     lintOptions {
         disable 'InvalidPackage'
     }
